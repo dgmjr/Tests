@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Sdk Name="MetapackageSdk" />
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="./Logging/Dgmjr.Testing.Logging.csproj" />
+    <PackageReference Include="./Fixtures/Dgmjr.Testing.Fixtures.csproj" />
+  </ItemGroup>
+</Project>
